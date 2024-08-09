@@ -1,4 +1,4 @@
-# Stock-predictor
+# Stock-predictor Development branch *WIP*
 stock predictor based on historical data
 
 Instructions for Running the Stock Price Prediction Application
