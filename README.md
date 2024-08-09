@@ -15,7 +15,7 @@ First, clone the project repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/stock-price-predictor.git
+git clone https://github.com/Rizvan0320/stock-price-predictor.git
 cd stock-price-predictor
 2. Backend Setup
 2.1. Set Up a Python Virtual Environment
