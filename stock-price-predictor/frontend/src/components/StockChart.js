@@ -7,7 +7,7 @@ const StockChart = ({ symbol }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.post('http://localhost:5000/predict', { symbol });
+      const response = await axios.post('http://172.20.0.2:5000/predict', { symbol });
       const data = response.data;
 
       setChartData({
