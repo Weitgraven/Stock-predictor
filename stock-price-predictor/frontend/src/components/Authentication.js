@@ -8,7 +8,7 @@ const Authentication = ({ setUser }) => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/login', { username, password });
+      const response = await axios.post('http://127.20.0.2:5000/login', { username, password });
       setUser(response.data.user);
     } catch (err) {
       setError('Invalid username or password');
