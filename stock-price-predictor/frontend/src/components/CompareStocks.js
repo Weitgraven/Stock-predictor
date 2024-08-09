@@ -10,7 +10,7 @@ const CompareStocks = () => {
   const handleCompare = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/compare', { symbols });
+      const response = await axios.post('http://172.20.0.2:5000/compare', { symbols });
       setComparisonData(response.data);
     } catch (err) {
       console.error('Failed to fetch comparison data:', err);
